@@ -1,0 +1,25 @@
+@import './colors.scss';
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(228, 228, 228);
+}
+
+.main {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px 20px;
+}
+
+h1 {
+  margin: 20px 0;
+  color: $baseColor !important;
+}
+
+h3 {
+  max-width: 600px;
+}
